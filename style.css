@@ -1,0 +1,81 @@
+html { 
+  background: url(headerimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+/*	background-color: darkred;*/
+    background: url(headerimage.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'Familjen Grotesk', sans-serif;
+}
+
+hr {
+    margin-top: 20px auto;
+    color: #F05F44;
+    border: 2px solid #F05F44;
+    max-width: 65px;
+    opacity: 1; 
+    width: 100%; 
+}
+
+.main{
+	width: auto;
+	height: auto;
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: auto;
+	min-height: 100vh;
+	flex-direction: column;
+/*	margin: 0px auto;*/
+}
+
+.inner{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 180px;
+}
+
+h1{
+	color: mintcream;
+	font-size: 3rem;
+    text-align: center;
+    margin: 0;
+/*    padding: 50px;*/
+}
+
+.btn-dark{
+	margin-top: 0px;
+	color: mintcream;
+	background-color: #F05F44;
+    border-color: #F05F44;
+    border-radius: 100px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 7.5px;
+/*    padding-top: 6px;*/
+    transition: all 0.1s ease-in;
+}
+
+.btn-dark:hover{
+    background-color:#f04f31;
+/*    color: black;*/
+    border-color:#f04f31 ;
+   border-width: 4px;
+}
+
